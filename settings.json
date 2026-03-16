@@ -37,7 +37,7 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
+    "auto-reconnect-delay": 5000,
     "max-reconnect-delay": 20000,
     "periodic-rejoin": {
       "enabled": true,
@@ -66,7 +66,7 @@
     "combat": true,
     "beds": true,
     "chat": true,
-    "console-commands": true
+    "console-commands": false
   },
   "combat": {
     "attack-mobs": true,
@@ -78,11 +78,11 @@
   },
   "discord": {
     "enabled": true,
-    "webhookUrl": "https://discord.com/api/webhooks/1472567640521183243/7DzSIaCSM_9-5DjzrlAuP9Tdj7Y3yAP6BHg3scKzhaRFdVk8ctWBlhOc7I8l5xC6Nqm3",
+    "webhookUrl": "https://discord.com/api/webhooks/1483169342979051641/fTWuEuvB2yV3dZ3eUX_Vz6oL3Q4kDFyOtuf62HoBkFKFW18EFI5YezgX8ZpPMqsQmgid",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
